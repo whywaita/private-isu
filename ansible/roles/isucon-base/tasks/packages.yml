@@ -3,8 +3,6 @@
   apt: name={{ item }} state=latest
   with_items:
     - libmysqlclient-dev
-    - nodejs
-    - nodejs-legacy
     - vim
     - git
-
+    - acl

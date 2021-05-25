@@ -3,7 +3,7 @@
 image/ansible以下に入っているplaybookを順番に実行。
 
 ```
-$ ansible-playbook -i hosts image/ansible/*.yml
+$ ansible-playbook -i hosts image/ansible/playbook.yml
 ```
 
 ## ssh config の例
